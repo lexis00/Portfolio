@@ -1,0 +1,8 @@
+Hi! Thank you for visiting my GitHub and viewing this project. 
+
+Embarking on my journey as an aspiring developer, I undertook a common yet pivotal project: an alien invasion game in the popular Python Crash Course book. With this being my first complex project, I followed a popular demo. This demo provided a structured approach to the project and served as a valuable learning resource, introducing me to the intricacies of game development using pygame. Following the step-by-step tutorial, I gained insights into fundamental concepts such as sprite manipulation, collision detection, and event handling, all crucial elements for crafting an engaging game.
+
+This guided learning experience allowed me to grasp the practical application of coding principles in a tangible project. Debugging challenges in real-time, as highlighted in the tutorial, honed my troubleshooting skills and equipped me with the ability to address issues dynamically.
+
+
+Demo:https://youtu.be/DRqbXaGetjE?si=VnKSjg4T005wfKkH

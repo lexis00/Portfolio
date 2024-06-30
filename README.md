@@ -6,8 +6,8 @@ I am a results-driven, aspiring Software Developer with a foundation in key prog
 Programming Languages: SQL, Python, Java, PHP
 
 
-Tools: AWS S3, MySQL Workbench, MySQL CLI, SpringBoot, Tomcat
+Tools: AWS S3, MySQL Workbench, MySQL CLI, SpringBoot, 
 
 
-Education: Bellevue Univserity 
+Education: Bellevue Univserity Bachelors of Science Software Development
 

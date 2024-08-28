@@ -1,0 +1,90 @@
+<!--Creating the front end of the website using HMTL, CSS & JavaScript-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Maintenance Microservice</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+        <script>
+            document.getElementById('vinForm').addEventListener('submit', function(event) {
+                event.preventDefault();
+                var vin = document.getElementById('vin').value;
+                fetch('/api/cars/' + vin + '/maintenance-records')
+                    .then(response => response.json())
+                    .then(data => {
+                        var carInfo = document.getElementById('carInfo');
+                        carInfo.innerHTML = ''; // Clear previous content
+                        data.forEach(record => {
+                            carInfo.innerHTML += `
+                                <div class="record">
+                                    <p>Status: ${record.status}</p>
+                                    <p>Customer Name: ${record.customer_name}</p>
+                                    <p>Make & Model:  ${record.model.manufacturer}</p>
+                                    <p>Maintenance Description: ${record.details}</p>
+                                    <p>Cost: $${record.cost}</p>
+                                    <p>Discount Available: ${record.discount ? 'Yes' : 'No'}</p>
+                                </div>
+                                <hr>
+                            `;
+                        });
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                    });
+            });
+        </script>
+        
+    </head>
+    <body>
+        <div id ="header">
+        <img src ="image.jpg" alt="Toolbox" width="115" height="100"/>
+        <h1>My Maintenance</h1>
+        </div>
+        <div id ="UserInfo">
+            <form id = "vinInfo" onsubmit="handleForm(event)">
+                <p> Vin Number
+                    <input type="text" name="Vin Number"/>
+                    <button type ="submit">Submit</button>
+                </p>
+            </form>
+        </div>
+
+        <div id ="Service">
+            <h2> Services</h2>
+            <table>
+                <tr>
+                    <td>Oil Change</td>
+                    <td>$30 - $150</td>
+                </tr>
+                
+                <tr>
+                    <td>Tire Rotation</td>
+                    <td>$20 - $50</td> 
+                </tr>
+                <tr>
+                    <td>Brake Pad Replacement</td>
+                    <td>$100 - $300</td>
+                </tr>
+                <tr>
+                    <td>Battery Replacement</td>
+                    <td>$70 - $200</td>
+                </tr>
+                <tr>
+                    <td>Suspension Repair</td>
+                    <td>$400 - $1000</td>
+                </tr>
+                <tr>
+                    <td>Engine Diagnostic</td>
+                    <td>$50 - $200</td>
+                </tr>
+            </table>
+            <p> If Service is not listed please send an email for additional information</p>
+        </div>
+
+        <div id = "About">
+            <h3>About</h3>
+            <p>My Maintenance is a microservice-based application designed for integration within a comprehensive car maintenance platform. The primary objective of My Maintenance is to embody agile software development principles by decoupling user interactions from the core functionalities of the parent application, thereby enhancing modularity and scalability. This microservice facilitates seamless management of car maintenance tasks, ensuring efficient service delivery and enhancing overall user experience within the broader ecosystem of automotive service applications. It achieves this by providing real-time updates to users regarding their car maintenance information</p>
+        </div>
+    </body>
+    
+</html>

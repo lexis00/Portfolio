@@ -1,0 +1,3 @@
+Welcome to my GitHub portfolio! Thank you for exploring my Calendar Management Application.
+
+This project leverages Java OOP principles and integrates Java Swing to create an interactive, responsive GUI for managing calendar events. On the backend, it utilizes MySQL for robust, efficient data storage, ensuring seamless event tracking and management. The project showcases the combination of object-oriented design and user-friendly interface development, with a focus on scalable database integration.

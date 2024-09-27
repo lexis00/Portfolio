@@ -4,5 +4,7 @@ Embarking on my journey as an aspiring developer, I undertook a common yet pivot
 
 This guided learning experience allowed me to grasp the practical application of coding principles in a tangible project. Debugging challenges in real-time, as highlighted in the tutorial, honed my troubleshooting skills and equipped me with the ability to address issues dynamically.
 
+Run the alien_invasion.py file to the play the game.
+
 
 Demo:https://youtu.be/DRqbXaGetjE?si=VnKSjg4T005wfKkH

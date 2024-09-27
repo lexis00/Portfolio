@@ -1,0 +1,6 @@
+
+Thank you for visiting the Math Webpage. This project is a streamlined mathematical utility designed to demonstrate the capabilities of cloud-based technologies in building scalable applications. The application allows users to input a base and an exponent, calculates the power, and stores the result in Amazon DynamoDB for future retrieval and analysis.
+
+The project leverages a variety of cloud services and tools, including AWS Amplify for deployment, AWS Lambda for serverless computing, AWS IAM for access management, and Amazon API Gateway for secure API integration. Additionally, Amazon DynamoDB serves as the backend database for storing results, while the frontend interface is built using HTML and Python.
+
+Through the development of this application, I gained practical experience in cloud operations, particularly in leveraging AWS services to enhance the performance and scalability of web applications.

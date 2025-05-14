@@ -1,13 +1,5 @@
 # Portfolio
-Welcome to my GitHub portfolio! Here you'll find projects that demonstrate my technical skills and problem-solving expertise.
+Welcome to my GitHub portfolio!
+Explore projects that highlight my technical capabilities, strategic problem-solving, and commitment to building robust software solutions.
 
-As an aspiring software developer, I  focus on building scalable applications, automating workflows with versatile scripts, and designing optimized databases for efficient data handling. I also leverage cloud computing to enhance agility in software development. I'm driven by a passion for strategic problem-solving and ready to contribute to innovative projects.
-
-Programming Languages: SQL, Python, Java, PHP
-
-Tools: MySQL Workbench, MySQL CLI, SpringBoot, 
-
-Cloud Solutions: AWS Lambda, AWS Amplify, AWS IaM, Amazon DynamoDB 
-
-Education: Bellevue Univserity Bachelors of Science Software Development
-
+I specialize in developing APIs, managing databases, and automating workflows. I also leverage cloud technologies to improve performance, security, and scalability. My focus is on creating reliable, high-impact applications and systems.
